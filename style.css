@@ -92,7 +92,32 @@ body {
 }
 
 .clients {
-  padding: 80px 100px;
+  margin-top: -80px;
+  padding: 100px 100px;
   text-align: center;
+  gap: 11px;
+  font-family: inter;
 }
+
+.clients-header h2 {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.clients-header p {
+  font-weight: 400;
+  font-size: 15px;
+  color: #717171;
+  margin-bottom: 50px;
+}
+
+.clients-logos {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 60px;
+}
+
+
 
