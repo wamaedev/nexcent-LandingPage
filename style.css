@@ -45,3 +45,54 @@ body {
   padding: 10px 22px;
   cursor: pointer;
 }
+
+.hero {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 66px 100px;
+  gap: 372px;
+  background-color: #F5F7FA;
+}
+
+.hero-content {
+  display: flex;
+  flex-direction: column;
+  font-family: inter;
+  gap: 20px;
+  max-width: 500px;
+}
+
+.hero-content h1 {
+  font-size: 50px;
+  font-weight: 600;
+  color: #263238;
+  margin: 0;
+}
+.hero-content h1 span {
+  color: #4CAF4F;
+}
+
+.hero-content p {
+  font-size: 15px;
+  line-height: 16px;
+  font-weight: 400;
+  color: #717171;
+  margin: 0;
+}
+
+.hero-content button {
+  background-color: #4CAF4F;
+  color: white;
+  max-width: 100px;
+  border-radius: 3px;
+  border: none;
+  padding: 10px 22px;
+  cursor: pointer;
+}
+
+.clients {
+  padding: 80px 100px;
+  text-align: center;
+}
+
