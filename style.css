@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com');
 body {
-  box-sizing: border-box;
   margin: 0;
   border: 0;
 }
@@ -49,10 +48,9 @@ body {
 .hero {
   display: flex;
   align-items: center;
-  width: 100%;
-  padding: 66px 100px;
+  padding: 66px 50px;
   justify-content: space-evenly;
-  /* gap: 72px; */
+  box-sizing: border-box;
   background-color: #F5F7FA;
 }
 
@@ -121,9 +119,10 @@ body {
 }
 
 .community {
+  margin-top: -50px;
   gap: 5px;
   text-align: center;
-  width: 370px;
+  width: 100%;
 }
 
 .community-header h3 {
@@ -137,6 +136,87 @@ body {
   font-weight: 400;
   font-size: 11px;
   line-height: 16px;
+}
+
+.community-notes {
+  padding: 100px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.membership-organisation {
+  padding: 16px 22px;
+  background-color: #FFFFFF;
+  width: 208px;
+  height: 182px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px #ABBED133;
+}
+
+.membership-organisation h3 {
+  font-family: inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.membership-organisation p {
+  font-family: inter;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.national-associations {
+  padding: 16px 22px;
+  background-color: #FFFFFF;
+  width: 208px;
+  height: 182px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px #ABBED133;
+}
+
+.national-associations h3 {
+  font-family: inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.national-associations p {
+  font-family: inter;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.clubs-groups {
+  padding: 16px 22px;
+  background-color: #FFFFFF;
+  width: 208px;
+  height: 182px;
+  text-align: center;
+  border-radius: 5px;
+  box-shadow: 2px 2px #ABBED133;
+}
+
+.clubs-groups h3 {
+  font-family: inter;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.clubs-groups p {
+  font-family: inter;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 10px;
+  line-height: 14px;
 }
 
 
