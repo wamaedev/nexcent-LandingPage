@@ -51,7 +51,8 @@ body {
   align-items: center;
   width: 100%;
   padding: 66px 100px;
-  gap: 372px;
+  justify-content: space-evenly;
+  /* gap: 72px; */
   background-color: #F5F7FA;
 }
 
@@ -119,5 +120,23 @@ body {
   gap: 60px;
 }
 
+.community {
+  gap: 5px;
+  text-align: center;
+  width: 370px;
+}
+
+.community-header h3 {
+  font-family: inter;
+  font-size: 25px;
+  margin-bottom: 2px;
+}
+
+.community-header p {
+  font-family: inter;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 16px;
+}
 
 
