@@ -118,9 +118,14 @@ body {
 }
 
 .community {
-  gap: 5px;
+  display: flex;
+  justify-content: center;
+  padding: 60px 100px;
+}
+
+.community-header {
   text-align: center;
-  width: 100%;
+  max-width: 370px;
 }
 
 .community-header h3 {
