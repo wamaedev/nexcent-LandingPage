@@ -1,14 +1,26 @@
 @import url('https://fonts.googleapis.com');
-body {
+
+* {
+  box-sizing: border-box;
   margin: 0;
   border: 0;
+  /* outline: 2px solid red; */
 }
 
 .nav-bar {
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  margin: 0 auto;
+}
+
+.nav-container {
   display: flex;
+  max-width: 1199px;
+  width: 100%;
+  margin: 0 auto;
   justify-content: space-between;
   align-items: center;
-  padding: 11px 100px;
+  padding: 11px 10px;
   font-weight: 400;
   font-family: inter;
   font-size: small;
@@ -45,21 +57,37 @@ body {
   cursor: pointer;
 }
 
+.main-container {
+  max-width: 1199px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 .hero {
+  width: 100%;
+  min-height: 80vh;
+  background-color: #F5F7FA;
+  position: relative;
+}
+
+.hero-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 1199px;
+  margin: 0 auto;
   display: flex;
   align-items: center;
-  padding: 66px 50px;
-  justify-content: space-evenly;
+  padding: 6px 10px;
+  justify-content: space-between;
   box-sizing: border-box;
-  background-color: #F5F7FA;
+  /* gap: 22px; */
+  outline: 2px solid red;
 }
 
 .hero-content {
-  display: flex;
-  flex-direction: column;
   font-family: inter;
-  gap: 20px;
-  max-width: 500px;
 }
 
 .hero-content h1 {
@@ -88,6 +116,12 @@ body {
   border: none;
   padding: 10px 22px;
   cursor: pointer;
+}
+
+.hero-img {
+  width: 270px;
+  height: 280px;
+  outline: 2px solid red;
 }
 
 .clients {
