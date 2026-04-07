@@ -1,0 +1,86 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  background: #f9fafb;
+}
+
+.navbar {
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.nav-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 1rem 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+
+.nav-links li {
+  text-decoration: none;
+  color: #4d4d4d;
+  font-weight: 500;
+  transition: color 0.2s;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav-links li::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #4caf4f;
+  transition: width 0.4s ease;
+}
+.nav-links li:hover {
+  color: #4caf4f;
+}
+.nav-links li:hover::after {
+  width: 100%;
+}
+
+.btn-primary {
+  font-family: "Inter", sans-serif;
+  background: rgb(76, 175, 79);
+  color: white;
+  padding: 0.6rem 1.4rem;
+  border: solid;
+  border-radius: 10px;
+  font-size: 0.688rem;
+  font-weight: 500;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+.btn-primary:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 30px -8px rgba(76, 175, 79, 0.2);
+}
